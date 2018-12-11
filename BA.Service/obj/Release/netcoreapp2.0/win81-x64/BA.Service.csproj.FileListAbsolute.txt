@@ -1,0 +1,16 @@
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.Service.deps.json
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.Service.dll
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.Service.pdb
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.Core.Entity.dll
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.Core.Interface.dll
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.IService.dll
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.Core.Interface.pdb
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.IService.pdb
+D:\Projects\Approval\Main\BA.Service\bin\Release\netcoreapp2.0\win81-x64\BA.Core.Entity.pdb
+D:\Projects\Approval\Main\BA.Service\obj\Release\netcoreapp2.0\win81-x64\BA.Service.csprojAssemblyReference.cache
+D:\Projects\Approval\Main\BA.Service\obj\Release\netcoreapp2.0\win81-x64\BA.Service.csproj.CoreCompileInputs.cache
+D:\Projects\Approval\Main\BA.Service\obj\Release\netcoreapp2.0\win81-x64\BA.Service.AssemblyInfoInputs.cache
+D:\Projects\Approval\Main\BA.Service\obj\Release\netcoreapp2.0\win81-x64\BA.Service.AssemblyInfo.cs
+D:\Projects\Approval\Main\BA.Service\obj\Release\netcoreapp2.0\win81-x64\BA.Service.csproj.CopyComplete
+D:\Projects\Approval\Main\BA.Service\obj\Release\netcoreapp2.0\win81-x64\BA.Service.dll
+D:\Projects\Approval\Main\BA.Service\obj\Release\netcoreapp2.0\win81-x64\BA.Service.pdb

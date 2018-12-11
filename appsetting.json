@@ -1,0 +1,11 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=130.1.2.186;Initial Catalog=HIS;User Id=WHCIT;Password=WHCIT;MultipleActiveResultSets=True;"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  }
+}

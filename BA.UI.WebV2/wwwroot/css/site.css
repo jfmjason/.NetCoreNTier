@@ -1,0 +1,237 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    /*padding-top: 50px;*/
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+
+
+.dataTables_length select {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+.dataTables_filter input {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: #d2d6de;
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+}
+
+.dataTables_filter label{
+    font-weight:500;
+}
+
+.top-5 {
+    margin-top: 5px;
+}
+.top-10 {
+    margin-top: 10px;
+}
+.top-15{
+    margin-top: 15px;
+}
+.top-20 {
+    margin-top: 20px;
+}
+.top-25 {
+    margin-top: 25px;
+}
+.top-30 {
+    margin-top: 30px;
+}
+.top-35 {
+    margin-top: 35px;
+}
+.top-40{
+    margin-top:40px;
+}
+
+span.left-feedback {
+    left:10px !important;
+}
+
+input.left-feedback {
+    padding-left: 30px !important;
+}
+
+.input-group-sm span.left-feedback {
+    top: -2px !important;
+}
+.applyBtn{
+
+    color:white !important;
+}
+
+.select2-selection__clear{
+    font-size:17px !important;
+}
+
+.select2-container--default .select2-selection--single {
+    border-radius: 3px !important;
+    height: 30px !important;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.bg-wheat {
+    background-color: wheat;
+}
+
+.bg-wheat-light {
+    background-color: #f5f0e8 !important;
+}
+.text-vertical-middle {
+    vertical-align: middle !important;
+}
+table tbody td.padding-4{
+    padding:4px !important;
+}
+
+.padding-top-4 {
+    padding: 4px !important;
+}
+
+.padding-bottom-4 {
+    padding-bottom: 4px !important;
+}
+
+.padding-top-5 {
+    padding-top: 5px !important;
+}
+
+.padding-bottom-5 {
+    padding-bottom: 5px !important;
+}
+
+
+.padding-right-5 {
+    padding-right: 5px !important;
+}
+
+.padding-left-5 {
+    padding-left: 5px !important;
+}
+
+.padding-right-10 {
+    padding-right: 10px !important;
+}
+
+.padding-left-10 {
+    padding-left: 10px !important;
+}
+.text-ellipsis {
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    display: inline-block !important;
+}
+
+button.processrequest {
+    font-size: 10px ;
+    font-weight: bold;
+}
+#dtrequestitems tbody td.td-decimal {
+
+    padding-right:20px;
+}
+
+.bg-white{
+    background-color:white !important;
+}
+
+.text-gray-darker{
+    color:gray !important;
+}
+
+.select2-dropdown.swalsel2 {
+    z-index: 999999;
+    float:left;
+}
+.swal2-popup #swal2-content .select2-selection span {
+    text-align: left;
+    font-weight:600;
+}
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > .treeview-menu {
+    top:36px !important;
+}
+
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > a > .pull-right-container {
+    left: 250px !important;
+}
+
+
+.sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > a > span:not(.pull-right), .sidebar-mini:not(.sidebar-mini-expand-feature).sidebar-collapse .sidebar-menu > li:hover > .treeview-menu {
+    width:245px;
+}
+
+.text-white{
+    color:white;
+}
+.skin-blue .sidebar-form input#sidebar-search[type="text"]:focus {
+    color:black;
+}
+
+.skin-blue .sidebar-form input#sidebar-search[type="text"] {
+    color: #8aa4af;
+}
+
+div#textclinicaldata {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    overflow-x: auto;
+    white-space: pre-line;
+}
+

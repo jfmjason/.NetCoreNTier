@@ -1,0 +1,49 @@
+﻿@model IEnumerable<BA.UI.WebV2.Models.MenuVm>
+
+@foreach (var parentmenu in Model)
+{
+    var icon = "";
+
+    if (parentmenu.Id == 1)
+    {
+        icon = "fa-file-o";
+    }
+    else if (parentmenu.Id == 3)
+    {
+        icon = "fa-folder-open-o";
+    }
+    else if (parentmenu.Id == 4)
+    {
+        icon = "fa-gear";
+    }
+    else
+    {
+        icon = "fa-list";
+    }
+
+
+    <li class="treeview">
+        <a href="#">
+            <i class="fa @icon"></i> <span>@parentmenu.Name</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            @foreach (var sub in parentmenu.SubMenus)
+            {
+                <li>
+                    <a href="#" data-url="@Url.Content(sub.UrlAction)" data-pagename="@sub.Name" class="text-ellipsis" style="width:225px;">
+
+                        <i class="fa fa-circle-o"></i> @sub.Name
+                    </a>
+
+                </li>
+            }
+
+
+        </ul>
+    </li>
+
+}
+

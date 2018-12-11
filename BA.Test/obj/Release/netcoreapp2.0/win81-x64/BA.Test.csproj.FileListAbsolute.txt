@@ -1,0 +1,14 @@
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\BA.Test.deps.json
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\BA.Test.runtimeconfig.json
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\BA.Test.runtimeconfig.dev.json
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\BA.Test.dll
+D:\Projects\Approval\Main\BA.Test\bin\Release\netcoreapp2.0\win81-x64\BA.Test.pdb
+D:\Projects\Approval\Main\BA.Test\obj\Release\netcoreapp2.0\win81-x64\BA.Test.csprojAssemblyReference.cache
+D:\Projects\Approval\Main\BA.Test\obj\Release\netcoreapp2.0\win81-x64\BA.Test.csproj.CoreCompileInputs.cache
+D:\Projects\Approval\Main\BA.Test\obj\Release\netcoreapp2.0\win81-x64\BA.Test.AssemblyInfoInputs.cache
+D:\Projects\Approval\Main\BA.Test\obj\Release\netcoreapp2.0\win81-x64\BA.Test.AssemblyInfo.cs
+D:\Projects\Approval\Main\BA.Test\obj\Release\netcoreapp2.0\win81-x64\BA.Test.dll
+D:\Projects\Approval\Main\BA.Test\obj\Release\netcoreapp2.0\win81-x64\BA.Test.pdb

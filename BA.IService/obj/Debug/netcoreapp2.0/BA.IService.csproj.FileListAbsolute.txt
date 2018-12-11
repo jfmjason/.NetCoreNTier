@@ -1,0 +1,12 @@
+D:\Projects\Approval\Main\BA.IService\bin\Debug\netcoreapp2.0\BA.IService.deps.json
+D:\Projects\Approval\Main\BA.IService\bin\Debug\netcoreapp2.0\BA.IService.dll
+D:\Projects\Approval\Main\BA.IService\bin\Debug\netcoreapp2.0\BA.IService.pdb
+D:\Projects\Approval\Main\BA.IService\bin\Debug\netcoreapp2.0\BA.Core.Entity.dll
+D:\Projects\Approval\Main\BA.IService\bin\Debug\netcoreapp2.0\BA.Core.Entity.pdb
+D:\Projects\Approval\Main\BA.IService\obj\Debug\netcoreapp2.0\BA.IService.csprojAssemblyReference.cache
+D:\Projects\Approval\Main\BA.IService\obj\Debug\netcoreapp2.0\BA.IService.csproj.CoreCompileInputs.cache
+D:\Projects\Approval\Main\BA.IService\obj\Debug\netcoreapp2.0\BA.IService.AssemblyInfoInputs.cache
+D:\Projects\Approval\Main\BA.IService\obj\Debug\netcoreapp2.0\BA.IService.AssemblyInfo.cs
+D:\Projects\Approval\Main\BA.IService\obj\Debug\netcoreapp2.0\BA.IService.csproj.CopyComplete
+D:\Projects\Approval\Main\BA.IService\obj\Debug\netcoreapp2.0\BA.IService.dll
+D:\Projects\Approval\Main\BA.IService\obj\Debug\netcoreapp2.0\BA.IService.pdb

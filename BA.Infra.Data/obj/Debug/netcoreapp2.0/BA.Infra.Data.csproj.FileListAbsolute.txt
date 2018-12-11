@@ -1,0 +1,16 @@
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Infra.Data.deps.json
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Infra.Data.runtimeconfig.json
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Infra.Data.runtimeconfig.dev.json
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Infra.Data.dll
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Infra.Data.pdb
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Core.Entity.dll
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Core.Interface.dll
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Core.Entity.pdb
+D:\Projects\Approval\Main\BA.Infra.Data\bin\Debug\netcoreapp2.0\BA.Core.Interface.pdb
+D:\Projects\Approval\Main\BA.Infra.Data\obj\Debug\netcoreapp2.0\BA.Infra.Data.csprojAssemblyReference.cache
+D:\Projects\Approval\Main\BA.Infra.Data\obj\Debug\netcoreapp2.0\BA.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Projects\Approval\Main\BA.Infra.Data\obj\Debug\netcoreapp2.0\BA.Infra.Data.AssemblyInfoInputs.cache
+D:\Projects\Approval\Main\BA.Infra.Data\obj\Debug\netcoreapp2.0\BA.Infra.Data.AssemblyInfo.cs
+D:\Projects\Approval\Main\BA.Infra.Data\obj\Debug\netcoreapp2.0\BA.Infra.Data.csproj.CopyComplete
+D:\Projects\Approval\Main\BA.Infra.Data\obj\Debug\netcoreapp2.0\BA.Infra.Data.dll
+D:\Projects\Approval\Main\BA.Infra.Data\obj\Debug\netcoreapp2.0\BA.Infra.Data.pdb

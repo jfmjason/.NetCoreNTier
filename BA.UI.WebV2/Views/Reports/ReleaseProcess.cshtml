@@ -1,0 +1,52 @@
+﻿<section class="content-header">
+    <h1>
+        Reports
+        <small>Release Approval Process </small>
+    </h1>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <div class="box" style="display:inherit;">
+                    <div class="box-header">
+                        <div class="row">
+                            <div class="form-group top-35">
+                                <div class="col-md-4">
+                                    <label class="col-md-2 top-5">Date</label>
+                                    <div class="col-md-10">
+                                        <div class="input-group-sm">
+                                            <span class="fa fa-calendar form-control-feedback left-feedback"></span>
+                                            <input id="releasedaterange" class="form-control input-sm text-bold left-feedback text-blue" />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    <button id="btnprocessreport" class="btn btn-sm btn-success"><i class=" fa fa-folder-open"></i> Generate Report</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="box-body">
+                        <iframe id="reportframe" src="@Url.Content("~/reports/printpreview")" width="100%" scrolling="no" style="overflow:hidden;border:0px;" height="1400"></iframe>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    var releaseProcess;
+    $(document).ready(function () {
+
+        releaseProcess = new ReleaseProcess();
+        releaseProcess.init();
+    })
+
+</script>
+

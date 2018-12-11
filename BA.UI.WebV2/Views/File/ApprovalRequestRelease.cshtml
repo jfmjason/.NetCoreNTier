@@ -1,0 +1,147 @@
+﻿
+
+<section class="content-header">
+    <h1>
+        File
+        <small>Approval Process Release</small>
+    </h1>
+
+</section>
+<!-- Main content -->
+<section class="content" >
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box box-default" style="min-height:600px;">
+                <div class="box-header">
+                    <div class="form-group">
+                        <div class="col-md-2">
+                            <label>Ref. No.</label>
+                            <input id="searchid" class="form-control input-sm text-bold text-navy" />
+                            <input id="requestid" class="hidden" />
+                        </div>
+                        <div class="col-md-10 top-20">
+                            <button id="btnsearch" class="btn btn-sm btn-primary "> <i class="fa fa-search"></i> Search</button>
+                            <button id="btnclear" class="btn btn-sm btn-default"> <i class="fa fa-eraser"></i> Clear</button>
+                        </div>
+
+                    </div>
+                </div>
+                <hr />
+                <div class="box-body" id="releasecontent">
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <button id="btnrelease" class="btn btn-success pull-right" style="display:none;"> <i class="fa fa-chain-broken"></i> Release</button>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <div class="col-md-2">
+                            <label>Request Type</label>
+                            <input id="requesttype" class="form-control input-sm text-bold " disabled />
+                        </div>
+
+                        <div class="col-md-2">
+                            <label>Status</label>
+                            <input id="status" class="form-control input-sm text-bold " disabled />
+                        </div>
+
+                        <div class="col-md-4">
+                            <label>Process Owner</label>
+                            <input id="processowner" class="form-control input-sm text-bold " disabled />
+                        </div>
+
+                        <div class="col-md-4">
+                            <label>Assign To</label>
+                            <select id="assignto" class="form-control input-sm text-bold "></select>
+                        </div>
+                    </div>
+                    <div class="form-group releasedetail" style="display:none;">
+
+                        <header class="text-bold text-orange col-md-12 top-40" style="font-size:16px;">Details</header>
+                    </div>
+                    <div class="form-group releasedetail" style="display:none;">
+
+                        <div class="col-md-5 top-10">
+                            <div class="col-md-12 ">
+                                <label class="text-gray-darker">PIN : </label>
+
+                                <label id="pin" class="text-blue"> N/A</label>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Patient Name : </label>
+
+                                <label id="patientname" class="text-blue"> N/A</label>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Insurance Card No: </label>
+
+                                <label id="insuranceno" class="text-blue"> N/A</label>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Requested Date : </label>
+
+                                <label id="requesteddate" class="text-blue"> N/A</label>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Process Date : </label>
+
+                                <label id="processdate" class="text-blue"> N/A</label>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-5 top-10">
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Category : </label>
+
+                                <label id="category" class="text-blue"> N/A</label>
+                            </div>
+
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Company : </label>
+
+                                <label id="company" class="text-blue"> N/A</label>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Grade : </label>
+
+                                <label id="grade" class="text-blue"> N/A</label>
+                            </div>
+                            <div class="col-md-12">
+                                <label class="text-gray-darker">Doctor : </label>
+
+                                <label id="doctor" class="text-blue"> N/A</label>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+<!-- /.content -->
+
+@*<script src="@Url.Content("~/js/File-ApprovalReleaseProcess.js")"></script>*@
+
+<script>
+    var requestScript;
+
+    $(document).ready(function () {
+
+        requestScript = new ApprovalReleaseProcess();
+        requestScript.init();
+
+    })
+
+</script>
+

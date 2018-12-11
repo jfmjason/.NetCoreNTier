@@ -1,0 +1,80 @@
+﻿
+
+<section class="content-header">
+    <h1>
+        File
+        <small>Billing Approval </small>
+    </h1>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="col-md-12">
+                <div class="box" style="display:inherit;">
+                    <div class="box-header">
+                        <h3 class="box-title">Approval Request</h3>
+                        <div class="row">
+                            <div class="form-group top-35">
+                                <div class="col-md-4">
+                                    <label class="col-md-2 top-5">Date</label>
+                                    <div class="col-md-10">
+                                        <div class="input-group-sm">
+                                            <span class="fa fa-calendar form-control-feedback left-feedback"></span>
+                                            <input id="requestdaterange" class="form-control input-sm text-bold left-feedback text-blue" />
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-4">
+                                    <label class="col-md-2 top-5">Category</label>
+                                    <div class="col-md-10">
+
+                                        <select id="sel2category" class="form-control input input-sm"></select>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <button id="btnfindrequest" class="btn btn-sm btn-success"><i class=" fa fa-search"></i> Find</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="box-body table-responsive">
+
+                        <table id="data-items" class="table table-hover table-striped">
+                            <thead class="bg-wheat">
+                                <tr></tr>
+                            </thead>
+                            <tbody>
+                                <tr></tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- /.content -->
+
+
+@*<script src="@Url.Content("~/js/File-BillingApproval.js")"></script>*@
+
+<script>
+    var requestScript;
+
+    $(document).ready(function () {
+
+        requestScript = new BillingApproval();
+
+        requestScript.init();
+
+    })
+
+</script>
+

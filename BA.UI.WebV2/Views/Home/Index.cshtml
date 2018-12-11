@@ -1,0 +1,115 @@
+﻿<section class="content-header">
+    <h1>
+        Dashboard 
+    </h1>
+
+</section>
+<!-- Main content -->
+<section  class="content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Weekly Recap Report</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-md-10">
+                            <p class="text-center">
+                                <strong>Approvals :  <span id="weekstart"></span> - <span id="weekend"></span></strong>
+                            </p>
+                            <div class="chart">
+                                <canvas id="weeklyrecap" style="height: 180px; width: 703px;" width="703" height="220"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="col-md-12">
+                                <div class="pad box-pane-right bg-purple-gradient" style="min-height: 280px">
+                                    <div class="description-block margin-bottom">
+                                        <h5 class="fa fa-user" style="font-size:25px;"></h5>
+                                        <h5 class="description-header"  id="inpatientpercentage"></h5>
+                                        <span class="description-text">IN - PATIENTS</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                    <div class="description-block margin-bottom">
+                                        <h5 class="fa fa-user" style="font-size:25px;"></h5>
+                                        <h5 class="description-header" id="outpatientpercentage">30%</h5>
+                                        <span class="description-text">OUT - PATIENTS</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                    <div class="description-block">
+                                        <h5 class="fa fa-users" style="font-size:25px;"></h5>
+                                        <h5 class="description-header" id="totalpatients">70%</h5>
+                                        <span class="description-text">TOTAL</span>
+                                    </div>
+                                    <!-- /.description-block -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- ./box-body -->
+                <div class="box-footer">
+                    <div class="row">
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block border-right">
+                                <span class="description-percentage"style="color:orange;" ><i class="fa fa-caret-right"></i><i id="forapprovalpercentage">20%</i></span>
+                                <h5 class="description-header" id="forapprovalcount"></h5>
+                                <span class="description-text">FOR APPROVAL</span>
+                            </div>
+                            <!-- /.description-block -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block border-right">
+                                <span class="description-percentage" style="color:#36a2eb;"><i class="fa fa-caret-right"></i><i id="inprocpercentage">20%</i></span>
+                                <h5 class="description-header" id="inproccount"></h5>
+                                <span class="description-text">UNDER PROCESS</span>
+                            </div>
+                            <!-- /.description-block -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block border-right">
+                                <span class="description-percentage" style="color:#00a65a;"><i class="fa fa-caret-right"></i><i id="donepercentage">20%</i></span>
+                                <h5 class="description-header" id="donecount"></h5>
+                                <span class="description-text">DONE</span>
+                            </div>
+                            <!-- /.description-block -->
+                        </div>
+                        <!-- /.col -->
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="description-block">
+                                <span class="description-percentage text-navy"><i class="fa fa-caret-up"></i> 100%</span>
+                                <h5 class="description-header" id="totalcount"></h5>
+                                <span class="description-text" >TOTAL REQUEST</span>
+                            </div>
+                            <!-- /.description-block -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.box-footer -->
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- /.content -->
+
+
+
+<script>
+    var homeScript;
+
+
+    $(document).ready(function () {
+
+        homeScript = new Home();
+
+        homeScript.init();
+
+    })
+
+</script>

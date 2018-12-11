@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BA.Core", "BA.Core", "{6CC4BB21-F5F0-45F8-8EBF-EDDB7D77C32E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BA.Infra", "BA.Infra", "{52893FEA-AE8C-4978-A74E-90E66FD55108}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BA.Services", "BA.Services", "{9E380EE4-742D-4420-8B12-1511CB3CAB44}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BA.UI", "BA.UI", "{2D4415CE-008C-487E-98E0-F479EBC4E560}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BA.UnitTest", "BA.UnitTest", "{6CAAF18D-E2C0-44EA-A9A6-E3D69CF8D29B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.Core.Interface", "BA.Core.Interface\BA.Core.Interface.csproj", "{03F53320-CC9E-428C-8A3D-E3B9A3A56D11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.Core.Entity", "BA.Core.Entity\BA.Core.Entity.csproj", "{80DA3D5C-B423-459A-B4A7-6C9AEF56FE78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.Infra.Data", "BA.Infra.Data\BA.Infra.Data.csproj", "{FC0BAFDF-51CC-452E-939E-F14164FDB908}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.Service", "BA.Service\BA.Service.csproj", "{8D39B736-C7BC-4070-8146-A186D9A6081D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.IService", "BA.IService\BA.IService.csproj", "{0D5B54AF-9FD3-4102-96F6-1ED7DC62370A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.Test", "BA.Test\BA.Test.csproj", "{851EC4DC-5587-473D-ACE4-88C667A41B49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BA.UI.WebV2", "BA.UI.WebV2\BA.UI.WebV2.csproj", "{FAAC52F8-3E1B-426C-8A0B-0E3E92035977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BA.UI.WebV3", "BA.UI.WebV3\BA.UI.WebV3.csproj", "{D33A7D0B-5024-4A29-BECA-A0F0244C7B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F53320-CC9E-428C-8A3D-E3B9A3A56D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F53320-CC9E-428C-8A3D-E3B9A3A56D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F53320-CC9E-428C-8A3D-E3B9A3A56D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F53320-CC9E-428C-8A3D-E3B9A3A56D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DA3D5C-B423-459A-B4A7-6C9AEF56FE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DA3D5C-B423-459A-B4A7-6C9AEF56FE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DA3D5C-B423-459A-B4A7-6C9AEF56FE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DA3D5C-B423-459A-B4A7-6C9AEF56FE78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC0BAFDF-51CC-452E-939E-F14164FDB908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC0BAFDF-51CC-452E-939E-F14164FDB908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC0BAFDF-51CC-452E-939E-F14164FDB908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC0BAFDF-51CC-452E-939E-F14164FDB908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D39B736-C7BC-4070-8146-A186D9A6081D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D39B736-C7BC-4070-8146-A186D9A6081D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D39B736-C7BC-4070-8146-A186D9A6081D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D39B736-C7BC-4070-8146-A186D9A6081D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5B54AF-9FD3-4102-96F6-1ED7DC62370A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5B54AF-9FD3-4102-96F6-1ED7DC62370A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5B54AF-9FD3-4102-96F6-1ED7DC62370A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5B54AF-9FD3-4102-96F6-1ED7DC62370A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851EC4DC-5587-473D-ACE4-88C667A41B49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851EC4DC-5587-473D-ACE4-88C667A41B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851EC4DC-5587-473D-ACE4-88C667A41B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851EC4DC-5587-473D-ACE4-88C667A41B49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAAC52F8-3E1B-426C-8A0B-0E3E92035977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAAC52F8-3E1B-426C-8A0B-0E3E92035977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAAC52F8-3E1B-426C-8A0B-0E3E92035977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAAC52F8-3E1B-426C-8A0B-0E3E92035977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33A7D0B-5024-4A29-BECA-A0F0244C7B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33A7D0B-5024-4A29-BECA-A0F0244C7B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33A7D0B-5024-4A29-BECA-A0F0244C7B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33A7D0B-5024-4A29-BECA-A0F0244C7B59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{03F53320-CC9E-428C-8A3D-E3B9A3A56D11} = {6CC4BB21-F5F0-45F8-8EBF-EDDB7D77C32E}
+		{80DA3D5C-B423-459A-B4A7-6C9AEF56FE78} = {6CC4BB21-F5F0-45F8-8EBF-EDDB7D77C32E}
+		{FC0BAFDF-51CC-452E-939E-F14164FDB908} = {52893FEA-AE8C-4978-A74E-90E66FD55108}
+		{8D39B736-C7BC-4070-8146-A186D9A6081D} = {9E380EE4-742D-4420-8B12-1511CB3CAB44}
+		{0D5B54AF-9FD3-4102-96F6-1ED7DC62370A} = {9E380EE4-742D-4420-8B12-1511CB3CAB44}
+		{851EC4DC-5587-473D-ACE4-88C667A41B49} = {6CAAF18D-E2C0-44EA-A9A6-E3D69CF8D29B}
+		{FAAC52F8-3E1B-426C-8A0B-0E3E92035977} = {2D4415CE-008C-487E-98E0-F479EBC4E560}
+		{D33A7D0B-5024-4A29-BECA-A0F0244C7B59} = {2D4415CE-008C-487E-98E0-F479EBC4E560}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0EA326C-EB1B-4815-98CF-12F510FEC05A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://130.1.8.180:8080/tfs/his
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BA.Core.Entity\\BA.Core.Entity.csproj
+		SccProjectTopLevelParentUniqueName1 = BillingApproval.sln
+		SccProjectName1 = BA.Core.Entity
+		SccLocalPath1 = BA.Core.Entity
+		SccProjectUniqueName2 = BA.Core.Interface\\BA.Core.Interface.csproj
+		SccProjectTopLevelParentUniqueName2 = BillingApproval.sln
+		SccProjectName2 = BA.Core.Interface
+		SccLocalPath2 = BA.Core.Interface
+		SccProjectUniqueName3 = BA.Infra.Data\\BA.Infra.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = BillingApproval.sln
+		SccProjectName3 = BA.Infra.Data
+		SccLocalPath3 = BA.Infra.Data
+		SccProjectUniqueName4 = BA.IService\\BA.IService.csproj
+		SccProjectTopLevelParentUniqueName4 = BillingApproval.sln
+		SccProjectName4 = BA.IService
+		SccLocalPath4 = BA.IService
+		SccProjectUniqueName5 = BA.Service\\BA.Service.csproj
+		SccProjectTopLevelParentUniqueName5 = BillingApproval.sln
+		SccProjectName5 = BA.Service
+		SccLocalPath5 = BA.Service
+		SccProjectUniqueName6 = BA.Test\\BA.Test.csproj
+		SccProjectTopLevelParentUniqueName6 = BillingApproval.sln
+		SccProjectName6 = BA.Test
+		SccLocalPath6 = BA.Test
+		SccProjectUniqueName7 = BA.UI.WebV2\\BA.UI.WebV2.csproj
+		SccProjectTopLevelParentUniqueName7 = BillingApproval.sln
+		SccProjectName7 = BA.UI.WebV2
+		SccLocalPath7 = BA.UI.WebV2
+		SccProjectUniqueName8 = BA.UI.WebV3\\BA.UI.WebV3.csproj
+		SccProjectTopLevelParentUniqueName8 = BillingApproval.sln
+		SccProjectName8 = BA.UI.WebV3
+		SccLocalPath8 = BA.UI.WebV3
+	EndGlobalSection
+EndGlobal
